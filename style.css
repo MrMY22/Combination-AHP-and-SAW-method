@@ -1,0 +1,139 @@
+/* Navbar */
+
+.jumbotron{
+    height: 50px;
+    background-color: white;
+}
+body{
+    background-color: #ecf0f1;
+}
+
+.img{
+    height: 100px;
+    margin-top: -50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    margin-top: -32px;
+    height: 90px;
+    background-color: #009b4c;
+}
+
+.navbar-brand{
+    font-family: Viga;
+    font-size: 30px;
+    color: white !important;
+    margin-top: -20px;
+}
+
+/* tombol */
+.tombol{
+    border-radius: 40px;
+    margin-top: -20px;
+}
+.info-login{
+    margin-top: 150px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.info-login img{
+    height: 100px;
+    padding: 10px;
+    display: block;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login{
+    margin-top: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+}
+.nav-link{
+    margin-right: 20px;
+    color: white !important;
+    margin-top: -20px;
+}
+
+
+.info-panel{
+    margin-top: -25px;
+    background-color: white;
+    height: 80px;
+}
+
+.info-panel h4{
+    text-transform: uppercase;
+    color: #009b4c;
+    font-weight: bold;
+    margin-top: -13px;
+}
+
+.info-panel p{
+    color: #bbbfc0;
+    margin-top: -10px;
+    font-weight: 600;
+}
+
+.panel{
+    margin-top: 20px;
+    background-color: white;
+}
+
+.panel h3{
+    text-align: center;
+    padding: 20px;
+}
+
+.akun{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.user{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.kuesioner{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.ket{
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.analisa{
+    background-color: white;
+    margin-top: 20px;
+}
+.analisa h5{
+    margin-top: 20px;
+}
+
+
+
+/* Deskop */
+@media (min-width: 992px){
+    
+
+    .nav-link:hover{
+        color: white;
+        background-color: #01c560;
+    }
+
+}
